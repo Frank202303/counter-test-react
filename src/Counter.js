@@ -17,7 +17,7 @@ const Counter = ({ initialCount }) => {
     return (
         <div>
             <h1>
-                Count: <h3>{count}</h3>
+                Count: <p data-testid="count">{count}</p>
             </h1>
             <div>
                 <button onClick={increment}>Increment</button>
